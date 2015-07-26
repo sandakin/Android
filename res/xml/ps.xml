@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:key="new">
+    
+   <PreferenceCategory android:title="@string/prefsetpw" >
+         <EditTextPreference
+                android:title="@string/prefpw"
+                android:summary="@string/prefpwsummary"
+                android:key="prefpw"
+              android:inputType="textPassword"               />
+           </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/prefsetpno" >
+            <EditTextPreference
+                android:title="@string/prefpno"
+                android:summary="@string/prefpnosummary"
+                android:key="prefpno" 
+                android:inputType="number"                            />
+    </PreferenceCategory>
+    
+     <PreferenceCategory android:title="@string/prefkey" >
+         <EditTextPreference
+                android:title="@string/prefskey"
+                android:summary="@string/prefskeysummary"
+                android:key="prefskey"             
+                />
+        <EditTextPreference
+                android:title="@string/prefnkey"
+                android:summary="@string/prefskeysummary"
+                android:key="prefnkey"             
+                />
+        <EditTextPreference
+                android:title="@string/preflkey"
+                android:summary="@string/preflkeysummary"
+                android:key="preflkey"             
+                />
+    </PreferenceCategory>
+    
+     <PreferenceCategory android:title="@string/prefsetsim" >
+          <Preference android:title="@string/prefsim" 
+                android:key="prefsim" 
+                android:summary="@string/prefpwsummary"/>  
+         
+           </PreferenceCategory>
+</PreferenceScreen>

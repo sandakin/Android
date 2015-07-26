@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MTrack</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_settings">Settings</string>
+    <string name="broadcast">Set</string>
+    <string name="broadcast2">mmet</string>
+    <string name="prefsetpw">Set Program Password</string>
+    <string name="prefpw">Password	</string>
+    <string name="prefpwsummary">Click to edit</string>
+    <string name="prefpno">Friends Phone Number</string>
+    <string name="prefsetpno">Set Friends Phone Number</string>
+    <string name="prefpnosummary">Click to edit</string>
+    <string name="prefkey">Silent/Ring Keywords</string>
+    <string name="prefskey">Silent Mode Keyword</string>
+    <string name="prefskeysummary">Click to edit</string>
+    <string name="prefnkey">Normal Mode Keyword</string>
+    <string name="prefsim">Add SIM Card</string>
+    <string name="prefsetsim">Add your current sim to the App</string>
+    <string name="preflkey">Get location Keyword</string>
+    <string name="preflkeysummary">Click to edit</string>
+    <string name="button1">gps</string>
+    <string name="pw1"> Password:</string>
+    <string name="pw2">Not Set</string>
+    <string name="sk"> Sim card</string>
+    <string name="Item1">Help</string>
+    <string name="title_activity_help">Help</string>
+    <string name="hello_world">Hello world!</string>
+<string name="hbut">OK</string>
+<!-- <string name="help">dasdsdasdsad</string> -->
+
+ <string name="help">
+    <![CDATA[
+
+
+<h2><u> MTrack </u></h2>
+        <p>
+MTrack is an app that help you find your lost/misplaced mobile phone. This app can change your phones Ringer Mode (Silent - Normal), notify a predefined number if the SIM card of your device has changed and track your phones location through GPS or Cell towers. All of this can be achieved through SMS commands.
+
+
+        </p>
+<h2> Setting up the App </h2>
+<p>
+<b>It is vital that you fill out app settings properly, otherwise the app won\'t be able to function properly.</b><br><br>
+</p>
+<p>
+<b>PASSWORD :-</b>Enter a password for the application.DO NOT SHARE this password with anyone.<br><br>
+<b>Friends Phone#:-</b> This is the number the app uses to notify you when the sim card of the phone is changed.<br><br>
+<b>Silent Mode Keyword :-</b> This keyword is used for turning the silent mode ON.<br><br>
+<b>Normal Mode Keyword :-</b> This keyword is used for turning a SILENT device into NORMAL. <br><br>
+<b>Get Location Mode Keyword :-</b> This keyword is used for getting the GPS location of the device.<br><br>
+</p>
+
+<p>
+<h2> Using MTrack</h2>
+</p>
+<p>
+<b><u>1.Silent - Normal Switch</u></b><br>
+
+This option can be used if forgot where you put your silenced phone. Turn Ringer volume to maximum through a SMS. <br><br>
+Send your password [space] silent keyword to activate silent mode<br>
+Ex: 12345 silent<br><br>
+Send your password [space] Normal keyword to activate normal mode<br>
+Ex: 12345 normal<br><br> 
+</p>
+
+<p>
+<b><u>2.Get Location</u></b><br>
+
+ This option will get you the GPS location of the device. (Location accuracy might not be 100% because of GPS signal strength, Cell tower density changes and Data connectivity)<br><br>
+Send your password [space]Get Location keyword to recive GPS coordinates<br>
+Ex: 12345 getloc<br><br>
+ 
+</p>
+
+
+<p>
+<b><u>3.SIM change notification</u></b><br>
+
+ This option will notify a predefined number if the current SIM card of your device to be changed. The App send a SMS to the predefined number( Friends #) from the new SIM card and you will able to identify the new number. You can perform all the above operations to that new number. <br><br>
+There is no SMS codes to this option.
+ 
+</p>
+
+
+<p>
+<b><u>Known Issues</u></b><br>
+
+On some devices "Location requests" can cause a crash.This happens becasue of low GPS signal strength<br><br>
+
+ 
+</p>
+
+
+      ]]>
+    </string>
+
+</resources>
